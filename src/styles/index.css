@@ -1,3 +1,40 @@
 body {
   font-size: 16px;
+  background: #f4f9fc;
+}
+.mainContainerOfHome {
+  width: 50%;
+  margin: auto;
+}
+.containerOfCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 8px;
+  width: fit-content;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+.mainOfPost {
+  padding: 12px;
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  grid-gap: 2rem;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, 400px);
+}
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mainImge {
+  width: 100%;
+  max-width: fit-content;
+  object-fit: contain;
+  margin: auto;
 }
